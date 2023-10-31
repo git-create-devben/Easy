@@ -12,8 +12,8 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">Easy Sign Up Pages Component</h1>
-        <p className="hero__subtitle">Easy Sign Up Pages Component is a free and open-source component library that makes it easy to create sign up pages with Tailwind CSS, Vanilla CSS, and Bootstrap. It works with Next.js, HTML, and React, and more components like footers and navbars will be added in the future.</p>
+        <h1 className="hero__title">Easy Footers and Navbars Component</h1>
+        <p className="hero__subtitle">Build beautiful and responsive footers and navbars quickly and easily</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"

@@ -6,31 +6,25 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #00a4b8;
-  --ifm-navbar-background-color: var(--ifm-color-primary);
-  --ifm-navbar-link-color: #fff;
-  --ifm-navbar-shadow: none;
-  --ifm-navbar-link-hover-color: var(--ifm-navbar-link-color);
-  --ifm-container-width: 900px;
-  --ifm-font-size-base: 16px;
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-emphasis-0: var(--ifm-color-gray-1000);
-  --ifm-color-emphasis-100: var(--ifm-color-gray-900);
-  --ifm-color-emphasis-200: var(--ifm-color-gray-800);
-  --ifm-color-emphasis-300: var(--ifm-color-gray-700);
-  --ifm-color-emphasis-400: var(--ifm-color-gray-600);
-  --ifm-color-emphasis-500: var(--ifm-color-gray-500);
-  --ifm-color-emphasis-600: var(--ifm-color-gray-400);
-  --ifm-color-emphasis-700: var(--ifm-color-gray-300);
-  --ifm-color-emphasis-800: var(--ifm-color-gray-200);
-  --ifm-color-emphasis-900: var(--ifm-color-gray-100);
-  --ifm-color-emphasis-1000: var(--ifm-color-gray-0);
-  --ifm-background-color: #18191a;
-  --ifm-background-surface-color: #242526;
-  --ifm-hover-overlay: hsla(0,0%,100%,0.05);
-  --ifm-color-content-secondary: #fff;
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-
